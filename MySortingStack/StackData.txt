@@ -1,0 +1,7 @@
+1 task1
+2 task2A
+7 task3A
+9 task2B
+3 task4A
+2 task4B
+6 task3B

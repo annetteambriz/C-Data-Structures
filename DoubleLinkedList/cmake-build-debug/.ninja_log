@@ -1,0 +1,6 @@
+# ninja log v6
+1	55	1739741691672222982	build.ninja	46bf7d17115e30fd
+1	29	1739159814627793703	clean	2fbe7aa7426f877a
+3	165	1739667862437767352	CMakeFiles/DoubleLinkedList.dir/LinkedListTester.c.o	9c9368909e8c2af1
+3	165	1739667862438082609	CMakeFiles/DoubleLinkedList.dir/DoubleLinkedList.c.o	d27700da8adb7930
+166	273	1739667862600867486	DoubleLinkedList	4a5e9a18bce93d3b

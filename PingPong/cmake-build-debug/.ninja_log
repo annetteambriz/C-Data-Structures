@@ -1,0 +1,5 @@
+# ninja log v6
+2	16	1738559456334783724	clean	2fbe7aa7426f877a
+0	51	1738559456498657434	CMakeFiles/PingPongTest.dir/PingPongTest.c.o	ee09522423b753b9
+1	51	1738559456498867808	CMakeFiles/PingPongTest.dir/PingPong.c.o	9cbbe722a4693251
+51	102	1738559456549348860	PingPongTest	2ade29bd70af6a6a

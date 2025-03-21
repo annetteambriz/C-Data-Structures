@@ -1,0 +1,55 @@
+# Build directories
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# JetBrains CLion project files
+.idea/
+
+# User-specific configuration
+*.iml
+*.ipr
+*.iws
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+*.dll
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Test output and core dumps
+core
+*.stackdump
+
+# CTest and other testing artifacts
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# Generated documentation
+doc/
+
+# Custom
+*.user
+*.vcxproj.*

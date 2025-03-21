@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5243920-4bf3-4d21-854d-184682d9b5ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C++Classes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoubleLinkedList/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoubleLinkedList/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoubleLinkedList/LinkedListTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoubleLinkedList/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetShowData/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetShowData/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetShowData/Problem1_2DataFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetShowData/examplePrint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetShowData/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntFreqTree/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntFreqTree/KAL_P5_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntFreqTree/integers.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList/LinkedListTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList/SinglyLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList_BetterOutput/DoublyLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList_BetterOutput/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList_BetterOutput/LinkedListTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList_BetterOutput/SinglyLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList_BetterOutput/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinkedList/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinkedList/LinkedListTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinkedList/SinglyLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinkedList/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinkedList/testData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/Stack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/Stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/StackData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/StackTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySortingStack/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/Stack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/Stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/StackData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/StackTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyStack/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PingPong/.idea/PingPong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PingPong/PingPong.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PingPong/PingPong.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PingPong/PingPongTest.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PingPong_SingleFile/.idea/PingPong_SingleFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/PriorityQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/PriorityQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/PriorityQueueDemo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PriorityQueue/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/Queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/Queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/QueueTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/Stack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/Stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/StackTester.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/UserData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swap/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swap/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimeDifference/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree1/KAL_P5_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree1/btree.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordFreqTree/KAL_P5_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordFreqTree/integers.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordFreqTree/wordFreq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalExam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LinkedLists/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++Classes/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++Classes/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/cache-v2-96da6e719dd279d7ce8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-62232fc96a68ead7686e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cabb569e699d03291f65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-12T14-18-18-0998.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/target-C_Programming_Class-Debug-5fd4eff67f370eab9318.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b5b70a09b5cb5c487388.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/C_Programming_Class.dir/Arrays.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/C_Programming_Class.dir/Conditionals.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/C_Programming_Class.dir/WageCalculator.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/C_Programming_Class.dir/WageCalculatorWithLoop.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/C_Programming_Class.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C_Programming_Class/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LinkedLists/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LinkedLists/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LinkedLists/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../LinkedLists/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-34af8ecffd9b420905aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-44c97e92c2e894495ed4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-01T23-03-30-0127.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/.cmake/api/v1/reply/target-Objects-Debug-862badbbedfb9207ffee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Objects/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Objects/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objects/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Objects/cmake-build-debug/build.ninja" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../WordFreqTree/KAL_P5_2.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="3" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2u6efulYmPdrnffNpYUXYvrWUdn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.KAL_P5_2.c.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/annette/Repositories/C/CLionProjects/C_Data_Structures/Tree2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KAL_P5_2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tree2" TARGET_NAME="KAL_P5_2.c" CONFIG_NAME="KAL_P5_2.c">
+      <option name="sourceFile" value="KAL_P5_2.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.KAL_P5_2.c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5243920-4bf3-4d21-854d-184682d9b5ce" name="Changes" comment="" />
+      <created>1741573557268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741573557268</updated>
+      <workItem from="1741573558482" duration="608000" />
+      <workItem from="1742181863801" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

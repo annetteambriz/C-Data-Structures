@@ -1,0 +1,6 @@
+# ninja log v6
+1	43	1740362601861705524	build.ninja	62ae9dc0675e87
+8	203	1740351373941462404	CMakeFiles/Queue.dir/Queue.c.o	6e81afd6d7556a2c
+7	203	1740351373940115256	CMakeFiles/Queue.dir/DoubleLinkedList.c.o	c6687cf52d79f631
+9	203	1740351373942150749	CMakeFiles/Queue.dir/QueueTester.c.o	68cbcdb5d55c009b
+204	324	1740351374137004581	Queue	ba73b931a40c2c07

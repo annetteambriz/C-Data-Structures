@@ -1,0 +1,5 @@
+# ninja log v6
+2	45	1739751323207029827	CMakeFiles/MyStack.dir/StackTester.c.o	dfd23bb2fc39af04
+3	156	1739749367003861763	CMakeFiles/MyStack.dir/DoubleLinkedList.c.o	bc09f90c6c0cc741
+3	153	1739749367004028138	CMakeFiles/MyStack.dir/Stack.c.o	55519ddec6213698
+45	74	1739751323249707573	MyStack	aa32a4894b4a7d7a

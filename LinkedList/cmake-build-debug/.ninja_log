@@ -1,0 +1,6 @@
+# ninja log v6
+0	44	1739665135243739482	build.ninja	91971f8f88f3db25
+52	87	1739074281854072184	LinkedList	d70837cda0340da4
+1	11	1739064161146259175	clean	2fbe7aa7426f877a
+3	47	1739074281805068295	CMakeFiles/LinkedList.dir/LinkedListTester.c.o	aa965808ba76f673
+4	52	1739074281805617629	CMakeFiles/LinkedList.dir/SinglyLinkedList.c.o	ed7ac62d467c6e45

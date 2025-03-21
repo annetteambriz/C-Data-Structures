@@ -1,0 +1,15 @@
+/Users/annette/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/annette/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/annette/Repositories/C/CLionProjects/C_Data_Structures/LinkedList -B /Users/annette/Repositories/C/CLionProjects/C_Data_Structures/LinkedList/cmake-build-debug
+CMake Warning at /Users/annette/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake:311 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Users/annette/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/annette/Repositories/C/CLionProjects/C_Data_Structures/LinkedList/cmake-build-debug

@@ -1,0 +1,8 @@
+# ninja log v6
+2	156	1739161463757221699	CMakeFiles/LinkedList_BetterOutput.dir/LinkedListTester.c.o	85ef5a777783b910
+156	258	1739161463911156918	LinkedList_BetterOutput	be52137129dd0396
+2	156	1739161463757883773	CMakeFiles/LinkedList_BetterOutput.dir/SinglyLinkedList.c.o	bd02c8beea5e9492
+1	12	1739066185774114312	clean	2fbe7aa7426f877a
+1	49	1739744103117117552	CMakeFiles/LinkedList_BetterOutput.dir/LinkedListTester.c.o	7d8f980410273713
+1	50	1739744103117348595	CMakeFiles/LinkedList_BetterOutput.dir/SinglyLinkedList.c.o	829582d4a8ce5cee
+50	82	1739744103166625138	LinkedList_BetterOutput	27694310a2e5172c

@@ -1,0 +1,5 @@
+# ninja log v6
+59	99	1739665147128092950	MyLinkedList	e6aca04dd09fc8f0
+2	30	1739075159681837517	clean	2fbe7aa7426f877a
+1	57	1739665147070399728	CMakeFiles/MyLinkedList.dir/LinkedListTester.c.o	c12916e5f6fef2db
+1	58	1739665147070661848	CMakeFiles/MyLinkedList.dir/SinglyLinkedList.c.o	3a9b757a6405aa86

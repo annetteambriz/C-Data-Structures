@@ -1,0 +1,3 @@
+/Users/annette/Repositories/C/CLionProjects/C_Data_Structures/Stack/cmake-build-debug/CMakeFiles/Stack.dir
+/Users/annette/Repositories/C/CLionProjects/C_Data_Structures/Stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/annette/Repositories/C/CLionProjects/C_Data_Structures/Stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

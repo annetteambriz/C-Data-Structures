@@ -250,32 +250,38 @@ void visitAll(TreeNodePtr nodeP)
 {
     // Using the TreeNodePtr pointer, access the TreeNode structs' relatives
     // Prints relatives' word data as a string.
-    // Access the current nodes' word and store in
-    // Retrieve node values or set to "*" if NULL
-    char *nodeWord = nodeP->data.word;
-    char *parentWord = (nodeP->parent != NULL) ? nodeP->parent->data.word : "*";
-    char *leftChildName = (nodeP->left != NULL) ? nodeP->left->data.word : "*";
-    char *rightChildName = (nodeP->right != NULL) ? nodeP->right->data.word : "*";
+    // Access the current nodes' word and store in a pointer variable.
+    // If the node data word is null, set variable to "*"
+    // Either the left or right sibling should be null depending on the current node.
 
-    // Determine left sibling
-    char *leftSiblingName = "*";
+    // relative variables
+    char *currentNode;
+    char *parent;
+    char *leftChild;
+    char *rightChild;
+    char *leftSibling;
+    char *rightSibling;
+
+    // get current node's word
+    currentNode = nodeP->data.word;
+    // If the node data word is null, set variable to "*"
+    parent = (nodeP->parent == NULL) ? "*" : nodeP->parent->data.word;
+    leftChild = (nodeP->left == NULL) ? "*" : nodeP->left->data.word;
+    rightChild = (nodeP->right == NULL) ? "*" : nodeP->right->data.word;
+    // Find left sibling by finding parent's left child
     if (nodeP->parent != NULL && nodeP->parent->left != NULL && nodeP->parent->left != nodeP) {
-        leftSiblingName = nodeP->parent->left->data.word;
-    }
+        leftSibling = nodeP->parent->left->data.word;
+    } else leftSibling = "*";
 
-    // Determine right sibling
-    char *rightSiblingName = "*";
+    // Find the right sibling by finding parent's right child
     if (nodeP->parent != NULL && nodeP->parent->right != NULL && nodeP->parent->right != nodeP) {
-        rightSiblingName = nodeP->parent->right->data.word;
-    }
+        rightSibling = nodeP->parent->right->data.word;
+    } else rightSibling = "*";
 
-    // Print node relationships in tabular format
+    // print out nodes' relatives data
     printf("%-10s %-10s %-10s %-10s %-10s %-10s\n",
-           nodeWord, parentWord, leftChildName, rightChildName, leftSiblingName, rightSiblingName);
-
-    //printf("\n\nNode        Parent        LChild        RChild        LSib        RSib\n\n");
-    //printf("%-15s %-15s %-15s %-15s\n", nodeP -> data.word, nodeP -> parent->data.word, nodeP -> left->data.word, nodeP -> right->data.word);
-} //end visit
+           currentNode, parent, leftChild, rightChild, leftSibling, rightSibling);
+} //end visitAll
 
 // preOrder
 // <<< you need to add a description of what this does, including

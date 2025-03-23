@@ -253,9 +253,12 @@ void visit(TreeNodePtr nodeP)
  *           does not exist or the word is NULL.
  */
 char *getRelativeWord(TreeNodePtr nodeP, Relative rel) {
+    // if nodeP is not null access relative, otherwise return "*"
     if (nodeP != NULL) {
+        // variable to store relative
         TreeNodePtr relative = NULL;
 
+        // check enum for which relative to access
         switch (rel) {
             case PARENT:
                 relative = nodeP -> parent;
@@ -270,13 +273,15 @@ char *getRelativeWord(TreeNodePtr nodeP, Relative rel) {
                 // invalid input will just return *
                 return "*";
         }
+        // if relative exists return relative's word data
         if (relative != NULL) {
             return relative->data.word;
         }
+        // otherwise return "*"
         return "*";
     }
     return "*";
-}
+} //end getRelativeWord
 
 /**
  * Takes a TreeNodePtr and prints the
@@ -295,7 +300,7 @@ void visitAll(TreeNodePtr nodeP)
     // Using the TreeNodePtr pointer, access the TreeNode structs' relatives
     // Prints relatives' word data as a string.
     // Access the current nodes' word and store in a pointer variable.
-    // If the node data word is null, set variable to "*"
+    // If the node does not exist, set variable to "*"
     // Either the left or right sibling should be null depending on the current node.
 
     // local variables
@@ -308,10 +313,11 @@ void visitAll(TreeNodePtr nodeP)
 
     // get current node's word
     currentNode = nodeP->data.word;
-    // If the node data word is null, set variable to "*"
+    // get relative word data
     parent = getRelativeWord(nodeP, PARENT);
     leftChild = getRelativeWord(nodeP, LEFT);
     rightChild = getRelativeWord(nodeP, RIGHT);
+
     // Find left sibling by finding parent's left child
     if (nodeP->parent != NULL && nodeP->parent->left != NULL && nodeP->parent->left != nodeP) {
         leftSibling = nodeP->parent->left->data.word;

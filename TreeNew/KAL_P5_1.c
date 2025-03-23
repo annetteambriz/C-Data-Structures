@@ -33,7 +33,15 @@
 // Defines a char limit size for the number of char in a word stored in a node
 #define MaxWordSize 20
 // Defines a constant for the file name used to read in word data
-#define FILENAME "btree.in" //
+#define FILENAME "btree.in" // Input data file for tree
+
+// An enum used in the getRelativeWord function to
+// generalize finding a relatives' word data
+typedef enum {
+    PARENT,
+    LEFT,
+    RIGHT
+} Relative;
 
 // <<< what are these 3 typedefs?  what do they contain??  how are they used??
 // <<< why is "word" set to MaxWorkSize+1?
@@ -86,15 +94,16 @@ int AllocationCount = 0;
  * Function declarations.
  * buildTree - uses a file passed via a pointer to create a tree structure using the data in the file.
  *              A pointer reference to the current node being created is passed in called nodeParent.
- *              //todo review this definition and finish the definitions below
- *
- * preOrder -
- * inOrder -
- * postOrder -
+ * preOrder - traverse tree in pre-order
+ * inOrder - traverse the tree in-order
+ * postOrder - traverse tree in post order
  * visit - Takes a TreeNodePtr and prints the NodeData word array.
- * postOrderNodeDump -
- * deleteTree -
- * visitAll -
+ * postOrderNodeDump - Traverses the tree in post order to dump all the word data of the tree.
+ * deleteTree - Traverses the tree in post-order and deletes the nodes as it traverses them.
+ * visitAll - Takes a TreeNodePtr and prints the NodeData word for each relative of the the TreeNodePtr.
+ *             Traverse the whole tree in post-order.
+ * getRelativeWord - Takes a TreeNodePtr and returns pointer to the relative's word, or "*" if the relative
+ *                    does not exist or the word is NULL.
  */
 TreeNodePtr buildTree         (FILE * in, TreeNodePtr nodeParent);
 void        preOrder          (TreeNodePtr nodeP);
@@ -103,7 +112,8 @@ void        postOrder         (TreeNodePtr nodeP);
 void        visit             (TreeNodePtr nodeP);
 void        postOrderNodeDump (TreeNodePtr nodeP);
 TreeNodePtr deleteTree        (TreeNodePtr nodeP);
-void        visitAll            (TreeNodePtr nodeP);
+void        visitAll          (TreeNodePtr nodeP);
+char        *getRelativeWord  (TreeNodePtr nodeP, Relative rel);
 
 // entry point
 // <<< you need to add a description of what this does, including
@@ -235,6 +245,40 @@ void visit(TreeNodePtr nodeP)
 } //end visit
 
 /**
+ * A helper function that returns the word stored in a relative
+ * node of the given TreeNodePtr.
+ * @param nodeP - a TreeNodePtr to the current tree node.
+ * @param rel - a Relative enum indicating which relative to access
+ * @return - A pointer to the relative's word, or "*" if the relative
+ *           does not exist or the word is NULL.
+ */
+char *getRelativeWord(TreeNodePtr nodeP, Relative rel) {
+    if (nodeP != NULL) {
+        TreeNodePtr relative = NULL;
+
+        switch (rel) {
+            case PARENT:
+                relative = nodeP -> parent;
+                break;
+            case LEFT:
+                relative = nodeP -> left;
+                break;
+            case RIGHT:
+                relative = nodeP -> right;
+                break;
+            default:
+                // invalid input will just return *
+                return "*";
+        }
+        if (relative != NULL) {
+            return relative->data.word;
+        }
+        return "*";
+    }
+    return "*";
+}
+
+/**
  * Takes a TreeNodePtr and prints the
  * following relative to that TreeNodePtr
  * if null prints '*':
@@ -254,7 +298,7 @@ void visitAll(TreeNodePtr nodeP)
     // If the node data word is null, set variable to "*"
     // Either the left or right sibling should be null depending on the current node.
 
-    // relative variables
+    // local variables
     char *currentNode;
     char *parent;
     char *leftChild;
@@ -265,9 +309,9 @@ void visitAll(TreeNodePtr nodeP)
     // get current node's word
     currentNode = nodeP->data.word;
     // If the node data word is null, set variable to "*"
-    parent = (nodeP->parent == NULL) ? "*" : nodeP->parent->data.word;
-    leftChild = (nodeP->left == NULL) ? "*" : nodeP->left->data.word;
-    rightChild = (nodeP->right == NULL) ? "*" : nodeP->right->data.word;
+    parent = getRelativeWord(nodeP, PARENT);
+    leftChild = getRelativeWord(nodeP, LEFT);
+    rightChild = getRelativeWord(nodeP, RIGHT);
     // Find left sibling by finding parent's left child
     if (nodeP->parent != NULL && nodeP->parent->left != NULL && nodeP->parent->left != nodeP) {
         leftSibling = nodeP->parent->left->data.word;
@@ -288,7 +332,10 @@ void visitAll(TreeNodePtr nodeP)
 // <<< any inputs it gets and what it returns
 
 /**
- * Using a TreeNodePtr, call the visit() function to print out the
+ * Using a TreeNodePtr, this function traverses the nodes in a tree
+ * in post-order.
+ * Calls the visit function to print out the current nodes'
+ * word data.
  *
  * @param nodeP
  */
@@ -316,7 +363,8 @@ void preOrder(TreeNodePtr nodeP)
 // <<< any inputs it gets and what it returns
 
 /**
- *
+ * This function traverses the nodes in-order recursively.
+ * Calls the visit function to print out the current nodes' word data.
  * @param nodeP
  */
 void inOrder(TreeNodePtr nodeP)
@@ -337,9 +385,11 @@ void inOrder(TreeNodePtr nodeP)
 } //end inOrder
 
 // postOrder
-// <<< todo you need to add a description of what this does, including
+// <<< you need to add a description of what this does, including
 // <<< any inputs it gets and what it returns
 /**
+ * This function traverses the nodes in post order recursively.
+ * Calls the visit function to print out the current nodes' word data.
  *
  * @param nodeP
  */
@@ -365,7 +415,8 @@ void postOrder(TreeNodePtr nodeP)
 // a node's name, parent, left and right children and left and right
 // siblings
 /**
- * todo fill out function descripton
+ *  Traverses nodes in post order and calls funciton visitAll to
+ *  print out relatives of the node.
  * @param nodeP
  */
 void postOrderNodeDump (TreeNodePtr nodeP)
